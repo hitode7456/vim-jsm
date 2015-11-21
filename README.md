@@ -25,8 +25,12 @@ You can use this plugin using Vim package manager `NeoBundle`.
 Write the following line in .vimrc
 
 	NeoBundle 'g-yanagi/vim-jsm'
+
+and autocmd command
+
+    autocmd BufNewFile,BufRead *.jsm    set ft=jsm
 	
-And Execute `NeoBundleInstall` on Vim command line.
+And Execute `NeoBundleInstall` or `NeoBundleUpdate` on Vim command line.
 
 	:NeoBundleInstall
 
